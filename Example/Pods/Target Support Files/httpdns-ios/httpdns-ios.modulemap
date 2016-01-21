@@ -1,0 +1,6 @@
+framework module httpdns_ios {
+  umbrella header "httpdns-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

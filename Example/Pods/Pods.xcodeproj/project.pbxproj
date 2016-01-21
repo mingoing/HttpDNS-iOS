@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07364430105646C0CEB2B62089F8FCFD /* Pods-httpdns-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA1EA879850D342BDEB59540102EC16 /* Pods-httpdns-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1CEAB65E43352237B012B3D81391DC /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 504C1D1C71F35A1CC96C32FC4A47E48A /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11ED91321866B594FDBBBE998A8823F7 /* httpdns-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC92302794AD1350CFD497DE125C5714 /* httpdns-ios-dummy.m */; };
+		14814A3219E3C955D9BACFAEB99D788A /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 081A82A2E9888F43316F467EC6A8401D /* Reachability-dummy.m */; };
+		21972BFA599188A2E0E3143ECC9FCE71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ED63643C9571BA31CE0D243FBD1581 /* Foundation.framework */; };
+		34D43EC50FD0D14639A734559E6BC363 /* Pods-httpdns-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD397C429CA55321BD2CC23363C9FF9 /* Pods-httpdns-ios_Example-dummy.m */; };
+		35691AD48E0FDFC4AF35FE94C8F122FE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D34F4CDC64DC5D3F5FC1CD5E4F71579B /* Reachability.m */; };
+		39CF80A55B10F8A4988500EADE7BD85F /* httpdns-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 093AE1501A9D1E475E803BBF8F0A5AD9 /* httpdns-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42182857CBCEAE7479DE106591EAC502 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A37CCE8B305B51BF5D9D5BBAE395A2 /* Reachability.framework */; };
+		44DC2A6F3DF65B358D3205085D874DA1 /* Pods-httpdns-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D9BBA73F4700BD4018F1DD00557B5 /* Pods-httpdns-ios_Tests-dummy.m */; };
+		6415085F5DF5D8C59466B02E25375576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ED63643C9571BA31CE0D243FBD1581 /* Foundation.framework */; };
+		6A3CF015903E5A72E94DD601F1766D7E /* HttpDNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3273A77A13493865AAC8D7B02B453C5D /* HttpDNS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF82FCB34CBA1C99582F84004EE16CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ED63643C9571BA31CE0D243FBD1581 /* Foundation.framework */; };
+		774DB88319BB31B13B9B97356976B82C /* HostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F785EA2236689CDB66AFBB4568137C87 /* HostModel.m */; };
+		A368B1489F587B4A7FB03F5C2A15905C /* HostModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FA51814C27C2ED857A30681BAA52D8DE /* HostModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C69789118672580E137CF9CE3AC3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ED63643C9571BA31CE0D243FBD1581 /* Foundation.framework */; };
+		DA2C54991D801C43225F1964F23D9D3A /* httpdns-ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4F82F390F677A7527C6F8F4A646018B /* httpdns-ios.bundle */; };
+		DDECB832D1782075C084667240F32287 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A936234CB17B250090CB411E06DF362 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E43C70C1C4F2F6A4882C97AE7E8E2441 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99BBE859DEA013A60DFECA2C3418279 /* SystemConfiguration.framework */; };
+		EA3BB73B91F3438647A6A573323F5D3C /* HttpDNS.m in Sources */ = {isa = PBXBuildFile; fileRef = B3462A7620A0B5E1B121803AD81F8C73 /* HttpDNS.m */; };
+		EB92B2C711BF855AD561A989F01A4C05 /* Pods-httpdns-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9269951AD527E5A9872F3C639917B4 /* Pods-httpdns-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E2D448411AB295AAAAECF21C1D63E73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FD24F4C0B6E3E4C7F09ED29AE066EB;
+			remoteInfo = "httpdns-ios";
+		};
+		3FA437FD23FE659EBF2389D47044F1B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1CF740D3B5F5938C65EDC8F897C34C;
+			remoteInfo = Reachability;
+		};
+		4E769A20C84CC01CA59D1F2008D2845A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1CF740D3B5F5938C65EDC8F897C34C;
+			remoteInfo = Reachability;
+		};
+		78FFFF5980FCFCC7E584377BF5D2F959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD1C0054395BBC91724BC1AFF84FEF4;
+			remoteInfo = "httpdns-ios-httpdns-ios";
+		};
+		878EAD0BBCF78A8C1BBFF0CB481FCB59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FD24F4C0B6E3E4C7F09ED29AE066EB;
+			remoteInfo = "httpdns-ios";
+		};
+		DD4EF3BF9AA7797E81A55C62A298CE7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1CF740D3B5F5938C65EDC8F897C34C;
+			remoteInfo = Reachability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F5B3A0035F65700E5125E91F71B518 /* Pods-httpdns-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-httpdns-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
+		030BF125496DE278DADBEF33771734F6 /* Pods-httpdns-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-httpdns-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		081A82A2E9888F43316F467EC6A8401D /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		093AE1501A9D1E475E803BBF8F0A5AD9 /* httpdns-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "httpdns-ios-umbrella.h"; sourceTree = "<group>"; };
+		1268178F79C62CA79A2DCC072F6E72DD /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A56527B30C75CAA01035BE8FBF5BC6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6EB1C8BFF58B6B1CB247E14699CAC0 /* Pods-httpdns-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-httpdns-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F36F9C863221E314D4485FEEE42F43C /* httpdns_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = httpdns_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3273A77A13493865AAC8D7B02B453C5D /* HttpDNS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HttpDNS.h; sourceTree = "<group>"; };
+		3CF504EEECB9278ACD59EDADF2B92F76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432352D62005E999E91407AB3592CEB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453FA67B72AC94BD9BC86091F263960C /* httpdns-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "httpdns-ios.xcconfig"; sourceTree = "<group>"; };
+		504C1D1C71F35A1CC96C32FC4A47E48A /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		5C8242EEBAAE81F8439DBDBA58BD398A /* httpdns-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "httpdns-ios.modulemap"; sourceTree = "<group>"; };
+		5D87E1CC9B723EBEB36B789A09C3D1F3 /* Pods-httpdns-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpdns-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F009C269BEA93C3A1672B95A60AFBDF /* Pods-httpdns-ios_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-httpdns-ios_Tests-resources.sh"; sourceTree = "<group>"; };
+		64A37CCE8B305B51BF5D9D5BBAE395A2 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB838F2B10A0B0AE3D5963E4A9A09F5 /* Pods-httpdns-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-httpdns-ios_Tests.modulemap"; sourceTree = "<group>"; };
+		71C8E99DA492485266C941B69FA71A8E /* Pods-httpdns-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpdns-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7294F17B2A291BE8FA6305FE24BF4E92 /* Pods_httpdns_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_httpdns_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A936234CB17B250090CB411E06DF362 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		81AEFAB278D0F27C9A454FFE024BAF1D /* Pods-httpdns-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-httpdns-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		874AB20E8269A90444EF0C4BE6174F52 /* Pods-httpdns-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-httpdns-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		87FBFC02F05E506A9A8CD2EBF5FB673C /* Pods-httpdns-ios_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-httpdns-ios_Example-resources.sh"; sourceTree = "<group>"; };
+		8F4356E3AC071EA1721EEB76C73F742E /* Pods-httpdns-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpdns-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		97ED63643C9571BA31CE0D243FBD1581 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9932D8073AE9CBE1AA6C6B019329FB08 /* Pods-httpdns-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpdns-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9CF846A9AE6658E2567D376A780459E7 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		9FA1EA879850D342BDEB59540102EC16 /* Pods-httpdns-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-httpdns-ios_Example-umbrella.h"; sourceTree = "<group>"; };
+		AA045AB94DDB4C32424D751844B74954 /* Pods-httpdns-ios_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-httpdns-ios_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AAE7DBEE18B826B64746654912DA85BD /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		AC92302794AD1350CFD497DE125C5714 /* httpdns-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "httpdns-ios-dummy.m"; sourceTree = "<group>"; };
+		B3462A7620A0B5E1B121803AD81F8C73 /* HttpDNS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HttpDNS.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C10A20E4F4289AA9F556902BC50586A4 /* Pods-httpdns-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-httpdns-ios_Example.modulemap"; sourceTree = "<group>"; };
+		CA029C6F69E07D0F1B4207AE0E0F9EC1 /* Pods_httpdns_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_httpdns_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD397C429CA55321BD2CC23363C9FF9 /* Pods-httpdns-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-httpdns-ios_Example-dummy.m"; sourceTree = "<group>"; };
+		D34F4CDC64DC5D3F5FC1CD5E4F71579B /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D4F82F390F677A7527C6F8F4A646018B /* httpdns-ios.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "httpdns-ios.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9D9BBA73F4700BD4018F1DD00557B5 /* Pods-httpdns-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-httpdns-ios_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB2F90F1071FD71D4970BCD255F0FA2D /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Reachability.modulemap; sourceTree = "<group>"; };
+		DD9269951AD527E5A9872F3C639917B4 /* Pods-httpdns-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-httpdns-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F785EA2236689CDB66AFBB4568137C87 /* HostModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HostModel.m; sourceTree = "<group>"; };
+		F887DD0761509896C4717ECAC4CAF946 /* httpdns-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "httpdns-ios-prefix.pch"; sourceTree = "<group>"; };
+		F99BBE859DEA013A60DFECA2C3418279 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FA51814C27C2ED857A30681BAA52D8DE /* HostModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HostModel.h; sourceTree = "<group>"; };
+		FBC3B330BD3E3F521F4D99ED8D664E9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4044B708D803A662168EA8CBCEA5D2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D37225B5EF3A4988C7CBD0439D645C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF82FCB34CBA1C99582F84004EE16CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A103A1D55A246FFC0DDFF2CC8853C14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21972BFA599188A2E0E3143ECC9FCE71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1547C4C10775EF7298C23F4F9337105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6415085F5DF5D8C59466B02E25375576 /* Foundation.framework in Frameworks */,
+				42182857CBCEAE7479DE106591EAC502 /* Reachability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D189BD2DB9B5356319CB3A9BB159B5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C69789118672580E137CF9CE3AC3D3 /* Foundation.framework in Frameworks */,
+				E43C70C1C4F2F6A4882C97AE7E8E2441 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5A143C7B9A947798F95D6E6ED15346 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C7ABB120D1FB28AE20AC948633D00C0 /* Pods-httpdns-ios_Example */,
+				6A2C2F303B0255A24A6A6D78EC4F9EE2 /* Pods-httpdns-ios_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0FB01B1426D6B23F67207C6E9E6441FB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				97ED63643C9571BA31CE0D243FBD1581 /* Foundation.framework */,
+				F99BBE859DEA013A60DFECA2C3418279 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		32009B247051A614264E09AF31F50131 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				640A99CD3C20CE0F8E13E753742A1452 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		37E698605510395D869ADF4025A56719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4F82F390F677A7527C6F8F4A646018B /* httpdns-ios.bundle */,
+				2F36F9C863221E314D4485FEEE42F43C /* httpdns_ios.framework */,
+				7294F17B2A291BE8FA6305FE24BF4E92 /* Pods_httpdns_ios_Example.framework */,
+				CA029C6F69E07D0F1B4207AE0E0F9EC1 /* Pods_httpdns_ios_Tests.framework */,
+				1268178F79C62CA79A2DCC072F6E72DD /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5558EECB8EB0C864492347258EE9508B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C8242EEBAAE81F8439DBDBA58BD398A /* httpdns-ios.modulemap */,
+				453FA67B72AC94BD9BC86091F263960C /* httpdns-ios.xcconfig */,
+				AC92302794AD1350CFD497DE125C5714 /* httpdns-ios-dummy.m */,
+				F887DD0761509896C4717ECAC4CAF946 /* httpdns-ios-prefix.pch */,
+				093AE1501A9D1E475E803BBF8F0A5AD9 /* httpdns-ios-umbrella.h */,
+				2A56527B30C75CAA01035BE8FBF5BC6A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/httpdns-ios";
+			sourceTree = "<group>";
+		};
+		640A99CD3C20CE0F8E13E753742A1452 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA51814C27C2ED857A30681BAA52D8DE /* HostModel.h */,
+				F785EA2236689CDB66AFBB4568137C87 /* HostModel.m */,
+				3273A77A13493865AAC8D7B02B453C5D /* HttpDNS.h */,
+				B3462A7620A0B5E1B121803AD81F8C73 /* HttpDNS.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		694952F075DBEFB23E993F3478313095 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7A936234CB17B250090CB411E06DF362 /* Reachability.h */,
+				D34F4CDC64DC5D3F5FC1CD5E4F71579B /* Reachability.m */,
+				A79FABA01CBD366C7EE32A517AEBA8BC /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		6A2C2F303B0255A24A6A6D78EC4F9EE2 /* Pods-httpdns-ios_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF504EEECB9278ACD59EDADF2B92F76 /* Info.plist */,
+				6DB838F2B10A0B0AE3D5963E4A9A09F5 /* Pods-httpdns-ios_Tests.modulemap */,
+				030BF125496DE278DADBEF33771734F6 /* Pods-httpdns-ios_Tests-acknowledgements.markdown */,
+				81AEFAB278D0F27C9A454FFE024BAF1D /* Pods-httpdns-ios_Tests-acknowledgements.plist */,
+				DA9D9BBA73F4700BD4018F1DD00557B5 /* Pods-httpdns-ios_Tests-dummy.m */,
+				AA045AB94DDB4C32424D751844B74954 /* Pods-httpdns-ios_Tests-frameworks.sh */,
+				5F009C269BEA93C3A1672B95A60AFBDF /* Pods-httpdns-ios_Tests-resources.sh */,
+				DD9269951AD527E5A9872F3C639917B4 /* Pods-httpdns-ios_Tests-umbrella.h */,
+				8F4356E3AC071EA1721EEB76C73F742E /* Pods-httpdns-ios_Tests.debug.xcconfig */,
+				9932D8073AE9CBE1AA6C6B019329FB08 /* Pods-httpdns-ios_Tests.release.xcconfig */,
+			);
+			name = "Pods-httpdns-ios_Tests";
+			path = "Target Support Files/Pods-httpdns-ios_Tests";
+			sourceTree = "<group>";
+		};
+		6C7ABB120D1FB28AE20AC948633D00C0 /* Pods-httpdns-ios_Example */ = {
+			isa = PBXGroup;
+			children = (
+				432352D62005E999E91407AB3592CEB5 /* Info.plist */,
+				C10A20E4F4289AA9F556902BC50586A4 /* Pods-httpdns-ios_Example.modulemap */,
+				2D6EB1C8BFF58B6B1CB247E14699CAC0 /* Pods-httpdns-ios_Example-acknowledgements.markdown */,
+				874AB20E8269A90444EF0C4BE6174F52 /* Pods-httpdns-ios_Example-acknowledgements.plist */,
+				CCD397C429CA55321BD2CC23363C9FF9 /* Pods-httpdns-ios_Example-dummy.m */,
+				00F5B3A0035F65700E5125E91F71B518 /* Pods-httpdns-ios_Example-frameworks.sh */,
+				87FBFC02F05E506A9A8CD2EBF5FB673C /* Pods-httpdns-ios_Example-resources.sh */,
+				9FA1EA879850D342BDEB59540102EC16 /* Pods-httpdns-ios_Example-umbrella.h */,
+				71C8E99DA492485266C941B69FA71A8E /* Pods-httpdns-ios_Example.debug.xcconfig */,
+				5D87E1CC9B723EBEB36B789A09C3D1F3 /* Pods-httpdns-ios_Example.release.xcconfig */,
+			);
+			name = "Pods-httpdns-ios_Example";
+			path = "Target Support Files/Pods-httpdns-ios_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				8CBD623077C94BED5422190A7464BB3B /* Development Pods */,
+				E11672FA369F8978780CD4B9AAA8C034 /* Frameworks */,
+				D02F67554E14C3100F274620CC9E3885 /* Pods */,
+				37E698605510395D869ADF4025A56719 /* Products */,
+				0D5A143C7B9A947798F95D6E6ED15346 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CBD623077C94BED5422190A7464BB3B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F743A712A89D055EBCE0EC55A1F4D6DA /* httpdns-ios */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A79FABA01CBD366C7EE32A517AEBA8BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBC3B330BD3E3F521F4D99ED8D664E9F /* Info.plist */,
+				DB2F90F1071FD71D4970BCD255F0FA2D /* Reachability.modulemap */,
+				AAE7DBEE18B826B64746654912DA85BD /* Reachability.xcconfig */,
+				081A82A2E9888F43316F467EC6A8401D /* Reachability-dummy.m */,
+				9CF846A9AE6658E2567D376A780459E7 /* Reachability-prefix.pch */,
+				504C1D1C71F35A1CC96C32FC4A47E48A /* Reachability-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		D02F67554E14C3100F274620CC9E3885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694952F075DBEFB23E993F3478313095 /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E11672FA369F8978780CD4B9AAA8C034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64A37CCE8B305B51BF5D9D5BBAE395A2 /* Reachability.framework */,
+				0FB01B1426D6B23F67207C6E9E6441FB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F743A712A89D055EBCE0EC55A1F4D6DA /* httpdns-ios */ = {
+			isa = PBXGroup;
+			children = (
+				32009B247051A614264E09AF31F50131 /* Pod */,
+				5558EECB8EB0C864492347258EE9508B /* Support Files */,
+			);
+			name = "httpdns-ios";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61DF22E76B256575D78E7FFD412E9D92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1CEAB65E43352237B012B3D81391DC /* Reachability-umbrella.h in Headers */,
+				DDECB832D1782075C084667240F32287 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F301FA4D071FA70E578682BAAB9AAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A368B1489F587B4A7FB03F5C2A15905C /* HostModel.h in Headers */,
+				39CF80A55B10F8A4988500EADE7BD85F /* httpdns-ios-umbrella.h in Headers */,
+				6A3CF015903E5A72E94DD601F1766D7E /* HttpDNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770D09AC1B5D28B6F1B3486DC200E92B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB92B2C711BF855AD561A989F01A4C05 /* Pods-httpdns-ios_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F76D60C91A729AD622E703490B2789 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07364430105646C0CEB2B62089F8FCFD /* Pods-httpdns-ios_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		327C75CD3FA155517773D21C461B3919 /* Pods-httpdns-ios_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A5B8751FC07522D1C10C88FAE17C00 /* Build configuration list for PBXNativeTarget "Pods-httpdns-ios_Tests" */;
+			buildPhases = (
+				14EEBAA96FD0B8A6D0FA12C58DEE732D /* Sources */,
+				A103A1D55A246FFC0DDFF2CC8853C14B /* Frameworks */,
+				770D09AC1B5D28B6F1B3486DC200E92B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DECB89138899DF140B8A9BBC6485CE6 /* PBXTargetDependency */,
+				756E203F46F3BBCB572863B6EE9C5BC6 /* PBXTargetDependency */,
+			);
+			name = "Pods-httpdns-ios_Tests";
+			productName = "Pods-httpdns-ios_Tests";
+			productReference = CA029C6F69E07D0F1B4207AE0E0F9EC1 /* Pods_httpdns_ios_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DD0602D86265F5BE5FBF46779808593 /* Pods-httpdns-ios_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684E401526D9CBD50CB27B867A54FC32 /* Build configuration list for PBXNativeTarget "Pods-httpdns-ios_Example" */;
+			buildPhases = (
+				84E0694FB6D7BAD49CBB195474007427 /* Sources */,
+				7D37225B5EF3A4988C7CBD0439D645C0 /* Frameworks */,
+				F0F76D60C91A729AD622E703490B2789 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDDD42D1466491BE585E3FD4F891C8A /* PBXTargetDependency */,
+				F4E8D24B78868F9A2361A2A67EBF686E /* PBXTargetDependency */,
+			);
+			name = "Pods-httpdns-ios_Example";
+			productName = "Pods-httpdns-ios_Example";
+			productReference = 7294F17B2A291BE8FA6305FE24BF4E92 /* Pods_httpdns_ios_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1FD24F4C0B6E3E4C7F09ED29AE066EB /* httpdns-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FDB0A35A93F9B9935A4F996F3A0C3D1 /* Build configuration list for PBXNativeTarget "httpdns-ios" */;
+			buildPhases = (
+				BBCBE7D35AE75C48FC1D3D60DCB48F3B /* Sources */,
+				C1547C4C10775EF7298C23F4F9337105 /* Frameworks */,
+				DBF897EE95F40845851989757ACE8097 /* Resources */,
+				68F301FA4D071FA70E578682BAAB9AAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7AC0716ABFCD9DDC70D928427FFE99 /* PBXTargetDependency */,
+				E0DE7BEE63E3038D523C0B66D2878B04 /* PBXTargetDependency */,
+			);
+			name = "httpdns-ios";
+			productName = "httpdns-ios";
+			productReference = 2F36F9C863221E314D4485FEEE42F43C /* httpdns_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDD1C0054395BBC91724BC1AFF84FEF4 /* httpdns-ios-httpdns-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A153BBEC0BC18785B7B4E8CA32C8D93A /* Build configuration list for PBXNativeTarget "httpdns-ios-httpdns-ios" */;
+			buildPhases = (
+				F60368BDC8F6431255E7A475F31E3C38 /* Sources */,
+				4044B708D803A662168EA8CBCEA5D2D9 /* Frameworks */,
+				DF32EF1288FD6EDCCB8DFF99E8006271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "httpdns-ios-httpdns-ios";
+			productName = "httpdns-ios-httpdns-ios";
+			productReference = D4F82F390F677A7527C6F8F4A646018B /* httpdns-ios.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DF1CF740D3B5F5938C65EDC8F897C34C /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3340557B6BB7DC994F6273DF0A084F /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				C392D915BBA102B328F7ED9D53C47FA2 /* Sources */,
+				D189BD2DB9B5356319CB3A9BB159B5D2 /* Frameworks */,
+				61DF22E76B256575D78E7FFD412E9D92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 1268178F79C62CA79A2DCC072F6E72DD /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 37E698605510395D869ADF4025A56719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1FD24F4C0B6E3E4C7F09ED29AE066EB /* httpdns-ios */,
+				DDD1C0054395BBC91724BC1AFF84FEF4 /* httpdns-ios-httpdns-ios */,
+				7DD0602D86265F5BE5FBF46779808593 /* Pods-httpdns-ios_Example */,
+				327C75CD3FA155517773D21C461B3919 /* Pods-httpdns-ios_Tests */,
+				DF1CF740D3B5F5938C65EDC8F897C34C /* Reachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF897EE95F40845851989757ACE8097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2C54991D801C43225F1964F23D9D3A /* httpdns-ios.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF32EF1288FD6EDCCB8DFF99E8006271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14EEBAA96FD0B8A6D0FA12C58DEE732D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DC2A6F3DF65B358D3205085D874DA1 /* Pods-httpdns-ios_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E0694FB6D7BAD49CBB195474007427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D43EC50FD0D14639A734559E6BC363 /* Pods-httpdns-ios_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCBE7D35AE75C48FC1D3D60DCB48F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774DB88319BB31B13B9B97356976B82C /* HostModel.m in Sources */,
+				11ED91321866B594FDBBBE998A8823F7 /* httpdns-ios-dummy.m in Sources */,
+				EA3BB73B91F3438647A6A573323F5D3C /* HttpDNS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C392D915BBA102B328F7ED9D53C47FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14814A3219E3C955D9BACFAEB99D788A /* Reachability-dummy.m in Sources */,
+				35691AD48E0FDFC4AF35FE94C8F122FE /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60368BDC8F6431255E7A475F31E3C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DECB89138899DF140B8A9BBC6485CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = DF1CF740D3B5F5938C65EDC8F897C34C /* Reachability */;
+			targetProxy = DD4EF3BF9AA7797E81A55C62A298CE7F /* PBXContainerItemProxy */;
+		};
+		2EDDD42D1466491BE585E3FD4F891C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = DF1CF740D3B5F5938C65EDC8F897C34C /* Reachability */;
+			targetProxy = 4E769A20C84CC01CA59D1F2008D2845A /* PBXContainerItemProxy */;
+		};
+		756E203F46F3BBCB572863B6EE9C5BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "httpdns-ios";
+			target = D1FD24F4C0B6E3E4C7F09ED29AE066EB /* httpdns-ios */;
+			targetProxy = 878EAD0BBCF78A8C1BBFF0CB481FCB59 /* PBXContainerItemProxy */;
+		};
+		E0DE7BEE63E3038D523C0B66D2878B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "httpdns-ios-httpdns-ios";
+			target = DDD1C0054395BBC91724BC1AFF84FEF4 /* httpdns-ios-httpdns-ios */;
+			targetProxy = 78FFFF5980FCFCC7E584377BF5D2F959 /* PBXContainerItemProxy */;
+		};
+		F4E8D24B78868F9A2361A2A67EBF686E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "httpdns-ios";
+			target = D1FD24F4C0B6E3E4C7F09ED29AE066EB /* httpdns-ios */;
+			targetProxy = 3E2D448411AB295AAAAECF21C1D63E73 /* PBXContainerItemProxy */;
+		};
+		FE7AC0716ABFCD9DDC70D928427FFE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = DF1CF740D3B5F5938C65EDC8F897C34C /* Reachability */;
+			targetProxy = 3FA437FD23FE659EBF2389D47044F1B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		27DE2F88AD0D46C01C0D547F4EE48FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE7DBEE18B826B64746654912DA85BD /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54E6A306BABF0508328F5616220BD320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453FA67B72AC94BD9BC86091F263960C /* httpdns-ios.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/httpdns-ios/httpdns-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/httpdns-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/httpdns-ios/httpdns-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = httpdns_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EACC12D2EBA7041B4EF46846EFADE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE7DBEE18B826B64746654912DA85BD /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6452CF4A5A4C0624A26FAFC03D528104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453FA67B72AC94BD9BC86091F263960C /* httpdns-ios.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "httpdns-ios";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		68754F66DE3157DEB186861DB8C27FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D87E1CC9B723EBEB36B789A09C3D1F3 /* Pods-httpdns-ios_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-httpdns-ios_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-httpdns-ios_Example/Pods-httpdns-ios_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_httpdns_ios_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		763E80F0163D28EDECE6BD32D92C8AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453FA67B72AC94BD9BC86091F263960C /* httpdns-ios.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "httpdns-ios";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A5C7F663173F312EB6B972FF9D4B1796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C8E99DA492485266C941B69FA71A8E /* Pods-httpdns-ios_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-httpdns-ios_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-httpdns-ios_Example/Pods-httpdns-ios_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_httpdns_ios_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A832B417F4741C463EACE2E6D23A618E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453FA67B72AC94BD9BC86091F263960C /* httpdns-ios.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/httpdns-ios/httpdns-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/httpdns-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/httpdns-ios/httpdns-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = httpdns_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B46A149E6865BFDFC95074F984BC6B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4356E3AC071EA1721EEB76C73F742E /* Pods-httpdns-ios_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-httpdns-ios_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-httpdns-ios_Tests/Pods-httpdns-ios_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_httpdns_ios_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAE9E217D329A10341CFD231AC35FE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9932D8073AE9CBE1AA6C6B019329FB08 /* Pods-httpdns-ios_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-httpdns-ios_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-httpdns-ios_Tests/Pods-httpdns-ios_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_httpdns_ios_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A5B8751FC07522D1C10C88FAE17C00 /* Build configuration list for PBXNativeTarget "Pods-httpdns-ios_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46A149E6865BFDFC95074F984BC6B72 /* Debug */,
+				DAE9E217D329A10341CFD231AC35FE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684E401526D9CBD50CB27B867A54FC32 /* Build configuration list for PBXNativeTarget "Pods-httpdns-ios_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C7F663173F312EB6B972FF9D4B1796 /* Debug */,
+				68754F66DE3157DEB186861DB8C27FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FDB0A35A93F9B9935A4F996F3A0C3D1 /* Build configuration list for PBXNativeTarget "httpdns-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E6A306BABF0508328F5616220BD320 /* Debug */,
+				A832B417F4741C463EACE2E6D23A618E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A153BBEC0BC18785B7B4E8CA32C8D93A /* Build configuration list for PBXNativeTarget "httpdns-ios-httpdns-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763E80F0163D28EDECE6BD32D92C8AC1 /* Debug */,
+				6452CF4A5A4C0624A26FAFC03D528104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3340557B6BB7DC994F6273DF0A084F /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DE2F88AD0D46C01C0D547F4EE48FBE /* Debug */,
+				5EACC12D2EBA7041B4EF46846EFADE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

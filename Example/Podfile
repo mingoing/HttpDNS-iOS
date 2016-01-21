@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'httpdns-ios_Example', :exclusive => true do
+  pod "httpdns-ios", :path => "../"
+end
+
+target 'httpdns-ios_Tests', :exclusive => true do
+  pod "httpdns-ios", :path => "../"
+
+  
+end
